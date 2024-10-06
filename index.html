@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Customizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <header>
+      <h1>Dashboard Customizer</h1>
+      <nav>
+        <ul>
+          <li><button onclick="replaceLayout()">Replace Layout</button></li>
+          <li><button onclick="changeTheme()">Change Theme</button></li>
+          <li><button onclick="changePageLayout()">Change Page Layout</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Layout Preview -->
+    <section class="preview-area">
+      <div id="layout-preview" class="layout layout-one">
+        <p>This is the default layout</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- <script src="scripts.js"></script> -->
+  <script src="script.js"></script>
+</body>
+</html>
